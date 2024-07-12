@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#container {
+    width: 30vw;
+    margin: 2vh auto auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#container p {
+    width: 15vw;
+    height: 5vh;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+    border-radius: 10px 10px 0 0;
+}
+
+#container p:hover {
+    background-color: #dfdfdf;
+}
+
+#scrollbar {
+    width: 30vw;
+    margin: auto;
+    height: 0.5vh;
+    border-radius: 100px;
+}
+
+#scrollbar div {
+    background-color: darkcyan;
+    width: calc(30vw / 2);
+    height: 0.5vh;
+    /*margin-left: calc(33vw / 2);*/
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
