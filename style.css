@@ -41,7 +41,6 @@ body {
     background-color: darkcyan;
     width: calc(30vw / 2);
     height: 0.5vh;
-    /*margin-left: calc(33vw / 2);*/
     border-radius: 100px;
     transition-duration: 0.3s;
 }
